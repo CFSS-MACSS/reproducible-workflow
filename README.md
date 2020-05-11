@@ -8,6 +8,10 @@
     * `R/02-wrangle-packages.R`
     * `R/03-barchart-packages-built.R`
 
+## Part 2 - `.Rprofile`
+
+`r-startup.R` contains a set of instructions for modifying your `.Rprofile` to change your startup routine whenever you begin a session of R. Follow along and make the appropriate modifications to you `.Rprofile`. Be sure to restart your R session after saving the changes to see them take effect.
+
 # Acknowledgments
 
 Exercises based on [What They Forgot to Teach You about R](https://rstudio-conf-2020.github.io/what-they-forgot/) originally created by Kara Woo, Jenny Bryan, and Jim Hester.
