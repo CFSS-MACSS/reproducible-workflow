@@ -16,6 +16,3 @@ p <- ggplot(apt_freqtable, aes(x = Built, y = n)) +
 ## if you use ggplot2, ggsave() will help
 ## idea: try using here::here() to create the file path
 ggsave(here("figs", "built-barchart.png"), p, height = 3)
-
-## YES overwrite the file that is there now
-## that's old output from me (Benjamin)
