@@ -11,3 +11,15 @@
 ## Hint: Be sure to put this in `if (interactive()) {`
 
 ## What animals are available?
+sort(names(cowsay::animals))
+
+## add this to your .Rprofile and add content to .First() and .Last()
+if (interactive()) {
+  .First <- function() {
+    # something for cowsay to do
+  }
+  
+  .Last <- function() {
+    # something for cowsay to do
+  }
+}

@@ -1,8 +1,12 @@
 ## remember to restart R here!
+library(tidyverse)
+library(here)
+
 ## make a barchart from the frequency table in data/add-on-packages-freqtable.csv
 
 ## read that csv into a data frame
 ## idea: try using here::here() to create the file path
+apt_freqtable <- ...
 
 ## if you use ggplot2, code like this will work:
 ggplot(apt_freqtable, aes(x = Built, y = n)) +

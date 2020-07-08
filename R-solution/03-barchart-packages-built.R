@@ -15,4 +15,4 @@ p <- ggplot(apt_freqtable, aes(x = Built, y = n)) +
 ## write this barchart to figs/built-barchart.png
 ## if you use ggplot2, ggsave() will help
 ## idea: try using here::here() to create the file path
-ggsave(here("figs", "built-barchart.png"), p, height = 3)
+ggsave(here("figs", "built-barchart.png"), p)
