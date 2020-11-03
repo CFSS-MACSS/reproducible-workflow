@@ -5,4 +5,4 @@ library(here)
 ipt <- installed.packages() %>%
   as_tibble() %>%
   ## write this data frame to data/installed-packages.csv
-  write_csv(path = here("data", "installed-packages.csv"))
+  write_csv(file = here("data", "installed-packages.csv"))

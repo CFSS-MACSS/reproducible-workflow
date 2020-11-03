@@ -6,7 +6,7 @@
 library(tidyverse)
 library(here)
 
-apt_freqtable <- read_csv(here("data", "add-on-packages-freqtable.csv"))
+apt_freqtable <- read_csv(file = here("data", "add-on-packages-freqtable.csv"))
 
 ## if you use ggplot2, code like this will work:
 p <- ggplot(apt_freqtable, aes(x = Built, y = n)) +

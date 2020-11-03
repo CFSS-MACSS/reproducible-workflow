@@ -7,10 +7,10 @@ library(here)
 ipt <- ...
 
 ## filter out the base and recommended packages
-## hint: .libPaths()[1] identifies the location of base and recommended packages
+## hint: Priority identifies base and recommended packages
 ## keep the variables Package and Built
 apt <- ipt %>%
-  filter(LibPath == .libPaths()[1]) %>%
+  filter(...) %>%
   select(Package, Built)
 
 ## write this new, smaller data frame to data/add-on-packages.csv
